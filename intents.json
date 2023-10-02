@@ -1,0 +1,40 @@
+{"intents": [
+  {"tag" : "greetings",
+  "patterns": ["hello","hey","hii","Greetings","what's up!"],
+  "responses": ["Hello!","Hey there!","Hello! what can I do for you?"]},
+  {"tag" : "goodbye",
+  "patterns": ["bye","cya","have a good day","goodbye", "see you"],
+  "responses": ["Sad to see you go!","Its my pleasure to help you","Goodbye","Have a good day!"]},
+  {"tag":"feeling",
+  "patterns" : ["how are you","how you doing"],
+  "responses" : ["I am fine", "I am doing Ok"]},
+  {"tag" : "name",
+  "patterns": ["what is your name","what do I call you"],
+  "responses": ["You can call me Bot","I am Bot and can help you answering any FAQ"]},
+  {"tag" : "thanks",
+  "patterns" : ["thank you!", "that was very helpful", "thanks"],
+  "responses" : ["Glad I am helpful :)", "I am Happy I could help", "No problem! You can ask me anything you want."]},
+  {"tag" : "courses",
+    "patterns" : ["what are the courses offered by mlritm","can you tell me what courses are offered by mlritm"],
+    "responses" : ["MLRITM offers a lot of courses like : B-Tech, MBA, Pharmacy, M-Tech"]},
+  {"tag" : "b-tech",
+    "patterns" : ["can you tell me about btech course","tell me about btech course in mlritm"],
+    "responses" : ["Bachelor of Technology(BTech) is a professional undergraduate engineering degree programme awarded to candidates after they complete four years of study in the field.\n MLRITM offers Btech in many branches across various specialization."]
+  },
+  {"tag" : "branches",
+    "patterns" : ["what are the btech branches offered in mlritm","can you tell me about the branches in mlritm","what btech courses are offered in mlritm"],
+    "responses" : ["MLRITM offers B-Tech in many branches like : \n 1. CSE \n 2. ECE \n 3. EEE \n 4. MECH \n 5. IT \n 6. Civil  "]
+  },
+  { "tag" : "fee",
+    "patterns" : ["what is the fee structure of the btech in mlritm","what is the fee and scholarships offered in mlritm"],
+    "responses" : ["Depending upon varios branches, specializations and scholarships each course has different fee structure. \n You can find the complete fee structure here : https://www.mlritm.ac.in/marri-laxman-reddy/fee-structure"]
+  },
+  { "tag" : "subjects",
+    "patterns" : ["what are the subjects offered in mlritm","what is the syllabus of each deapartment in mlritm"],
+    "responses" : ["There are variety of subjects in Btech from beginner level to Core level. \n Example: DSA, DAA, OS, DBMS, JAVA etc. \n You can find complete syllabus and cousres for all branches here : https://www.mlritm.ac.in/marri-laxman-reddy/syllabus"]
+  },
+  { "tag" : "activities",
+    "patterns" : ["what are the different activities held in mlritm","what are the extra curriculum activities offered in mlrtim"],
+    "responses" : ["MLRITM offers many activites like Fest, Traditional Day, DJ Night, Anuual Day and many more. \n You can find complete list here : https://www.mlritm.ac.in/marri-laxman-reddy/activities"]
+  }
+]}
